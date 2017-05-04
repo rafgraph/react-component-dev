@@ -1,9 +1,7 @@
 import React from 'react';
 
-function Foo() {
+export default class SomeComponent extends React.Component {
   return (
-    <div>Hello world from the Foo component</div>
+    <div>Hello world from Some Component</div>
   );
 }
-
-export default Foo;

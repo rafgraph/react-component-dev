@@ -1,7 +1,7 @@
 {
-  "name": "foo",
+  "name": "some-component",
   "version": "0.0.0",
-  "description": "Foo component",
+  "description": "Some component",
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && babel src -d lib",
@@ -16,8 +16,7 @@
     "url": "git+https://github.com/rafrex/react-component-dev.git"
   },
   "keywords": [
-    "react",
-    "foo"
+    "react"
   ],
   "author": "Rafael Pedicini <code@rafrex.com>",
   "license": "MIT",
