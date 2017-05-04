@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "some-component",
   "version": "0.0.0",
   "description": "Some component",
