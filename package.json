@@ -2,7 +2,10 @@
   "name": "react-interactive-examples",
   "description": "Example for React Interactive component",
   "scripts": {
-    "start": "webpack-dev-server -d --inline --host 0.0.0.0 --history-api-fallback --progress"
+    "start-local": "npm link some-component && npm start",
+    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
+    "unlink": "npm unlink some-component && npm install --save some-component",
+    "build": "npm run unlink && webpack -p"
   },
   "repository": {
     "type": "git",
