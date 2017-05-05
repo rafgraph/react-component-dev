@@ -1,1 +1,1 @@
-# Example app for Foo component
+# Example App for Some Component
