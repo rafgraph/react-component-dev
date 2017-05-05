@@ -5,10 +5,14 @@
   "description": "Some component",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "prepublish": "npm run build"
+    "build": "npm run build-lib && npm run build-dist",
+    "build-lib": "rm -rf lib && babel src -d lib",
+    "build-dist": "rm -rf dist && webpack src/index.js dist/SomeComponent.js && webpack -p src/index.js dist/SomeComponent.min.js",
+    "prepublish": "npm run build",
+    "dev": "npm link && babel src -d lib --watch"
   },
   "files": [
+    "dist",
     "lib",
     "src"
   ],
