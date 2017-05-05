@@ -1,6 +1,7 @@
 {
-  "name": "react-interactive-examples",
-  "description": "Example for React Interactive component",
+  "private": true,
+  "name": "some-component-example",
+  "description": "Example site for Some Component",
   "scripts": {
     "start-local": "npm link some-component && npm start",
     "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
