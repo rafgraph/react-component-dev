@@ -5,8 +5,8 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['airbnb'],
-  plugins: ['react'],
+  extends: ['airbnb', 'prettier', 'prettier/react'],
+  plugins: ['react', 'prettier'],
   rules: {
     'no-unused-expressions': [
       'error',
@@ -17,5 +17,6 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': 'off',
+    'prettier/prettier': ['warn', { trailingComma: 'all', singleQuote: true }],
   },
 };
