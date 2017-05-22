@@ -17,6 +17,8 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'react/forbid-prop-types': 'off',
     'react/jsx-filename-extension': 'off',
+    'import/no-unresolved': ['error', { ignore: ['^react$'] }], // because React is a peer dependency
+    'import/extensions': ['error', 'never'],
     'prettier/prettier': ['warn', { trailingComma: 'all', singleQuote: true }],
   },
 };
