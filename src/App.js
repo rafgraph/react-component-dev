@@ -6,7 +6,11 @@ export default class App extends React.Component {
     return (
       <div>
         <div>Example App for Some Component</div>
-        <div><a href="https://github.com/rafrex/react-component-dev">react-component-dev</a></div>
+        <div>
+          <a href="https://github.com/rafrex/react-component-dev">
+            react-component-dev
+          </a>
+        </div>
         <SomeComponent />
       </div>
     );
