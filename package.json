@@ -3,10 +3,10 @@
   "name": "some-component-example",
   "description": "Example site for Some Component",
   "scripts": {
-    "start-local": "npm link some-component && npm start",
+    "start-local": "yarn link some-component && yarn start",
     "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --public 10.0.1.4:8080 --history-api-fallback --open",
-    "unlink": "npm unlink some-component && npm install --save some-component",
-    "build": "npm run unlink && webpack -p"
+    "unlink": "yarn unlink some-component && yarn add --save some-component",
+    "build": "yarn run unlink && webpack -p"
   },
   "repository": {
     "type": "git",
