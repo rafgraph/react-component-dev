@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/react-component-dev.git"
+    "url": "git+https://github.com/rafgraph/npm-package-dev.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
+  "author": "Rafael Pedicini <rafael@rafgraph.dev>",
   "license": "MIT",
   "dependencies": {
     "react": "^15.5.4",
