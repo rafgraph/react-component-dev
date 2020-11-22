@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafgraph/npm-package-dev.git"
+    "url": "git+https://github.com/rafgraph/react-component-dev.git"
   },
   "keywords": [
     "react"
@@ -26,7 +26,7 @@
   "author": "Rafael Pedicini <rafael@rafgraph.dev>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafgraph/npm-package-dev/issues"
+    "url": "https://github.com/rafgraph/react-component-dev/issues"
   },
   "peerDependencies": {
     "react": "^15.0.0"

@@ -1,6 +1,6 @@
 # React Component Dev
 
-[Demo website for SomeComponent](https://npm-package-dev.rafgraph.dev)
+[Demo website for SomeComponent](https://react-component-dev.rafgraph.dev)
 
 Minimalistic boilerplate for creating a React component
 - Component development in the `main` branch
